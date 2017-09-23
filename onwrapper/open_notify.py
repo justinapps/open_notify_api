@@ -36,3 +36,5 @@ class OpenNotify(object):
 		response = requests.get(endpoint)
 
 		return response.json()
+
+print "poodle test"
