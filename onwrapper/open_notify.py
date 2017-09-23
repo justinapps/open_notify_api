@@ -36,6 +36,3 @@ class OpenNotify(object):
 		response = requests.get(endpoint)
 
 		return response.json()
-
-cl = OpenNotify()
-print(cl.astronauts())
