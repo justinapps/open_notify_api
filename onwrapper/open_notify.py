@@ -37,4 +37,3 @@ class OpenNotify(object):
 
 		return response.json()
 
-print "poodle test"
